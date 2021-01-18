@@ -15,6 +15,6 @@ import java.util.Date;
 import java.util.List;
 
 @Repository
-public interface TransactionInfoRepository extends JpaRepository<AccountInfo, Integer>,TransactionRepositoryCustom {
+public interface TransactionInfoRepository extends CrudRepository<AccountInfo, Integer>,TransactionRepositoryCustom {
 
    }
